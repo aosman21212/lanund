@@ -7,6 +7,11 @@
     'website': 'https://leapai.com',
     'category': 'Services',
     'license': 'LGPL-3',
+    'images': [
+        'static/description/main_screenshot.png',
+        'static/description/screenshot_orders.png',
+        'static/description/icon.png',
+    ],
     'depends': ['account', 'hr', 'mail', 'product'],
     'data': [
         'security/laundry_security.xml',
