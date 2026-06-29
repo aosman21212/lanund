@@ -115,6 +115,27 @@
         .feature-table tr:hover td { background: #fdf8fd; }
         .check { color: #28a745; font-size: 16px; }
 
+        /* Screenshots */
+        .screenshots-section { margin-bottom: 48px; }
+        .screenshots-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+            margin-top: 20px;
+        }
+        .screenshots-grid img {
+            width: 100%;
+            border: 1px solid #e8e0e8;
+            border-radius: 10px;
+            box-shadow: 0 4px 16px rgba(113,75,103,0.12);
+        }
+        .screenshot-caption {
+            font-size: 13px;
+            color: #666;
+            margin-top: 8px;
+            text-align: center;
+        }
+
         /* Footer */
         .footer {
             background: linear-gradient(135deg, #714B67 0%, #4A2F47 100%);
@@ -216,6 +237,21 @@
             <div class="workflow-step">
                 <div class="step-number">6</div>
                 <div class="step-label">Complete</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section class="screenshots-section">
+        <h2>Screenshots</h2>
+        <div class="screenshots-grid">
+            <div>
+                <img src="main_screenshot.png" alt="Laundry Management Dashboard"/>
+                <p class="screenshot-caption">Live dashboard with KPIs, order status panels, and recent activity.</p>
+            </div>
+            <div>
+                <img src="screenshot_orders.png" alt="Laundry Order Form"/>
+                <p class="screenshot-caption">Full order lifecycle with line items, services, and invoicing.</p>
             </div>
         </div>
     </section>
